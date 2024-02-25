@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3010;
 
 app.get("/", (req, res) => {
-    res.send("WELCOME to Christel Lacerna's API");
+    res.send("WELCOME to Christel Lacerna's BACKEND API");
 });
 
 
