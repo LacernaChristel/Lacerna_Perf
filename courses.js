@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Course = require("./model/christelmodel");
 
 const app = express();
-const PORT = 4000;
+const PORT = 3010;
 
 app.get("/", (req, res) => {
     res.send("WELCOME to Christel Lacerna's API");
